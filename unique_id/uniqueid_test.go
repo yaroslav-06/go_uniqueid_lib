@@ -3,8 +3,9 @@ package uniqueid
 import (
 	"context"
 	"fmt"
-	"redirect_logger/internal/db"
 	"testing"
+
+	"github.com/yaroslav-06/godb_ctx/db"
 )
 
 func TestInit(t *testing.T) {

@@ -3,7 +3,8 @@ package uniqueid
 import (
 	"fmt"
 	"math/rand"
-	"redirect_logger/internal/db"
+
+	"github.com/yaroslav-06/godb_ctx/db"
 )
 
 const name = "generator"
